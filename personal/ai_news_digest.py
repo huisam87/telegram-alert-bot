@@ -255,7 +255,7 @@ def build_message(config, base_dir):
     today = dt.datetime.now().strftime("%Y-%m-%d")
     sections.append(f"AI 업데이트 알림 ({today})")
 
-    base_tools = {"Gemini", "ChatGPT", "Claude"}
+    base_tools = {"Gemini", "ChatGPT", "Claude", "Google Antigravity"}
     for tool in tools:
         name = tool["name"]
         items = items_by_tool.get(name, [])[:max_items]
@@ -273,7 +273,7 @@ def build_message(config, base_dir):
                     lines.append(f"  {link}")
         sections.append("\n".join(lines))
 
-        if name == "Claude":
+        if name == "Google Antigravity":
             lines = ["[해외 인기 AI 툴]"]
             if not popular_items:
                 lines.append("- 오늘 관련 한국어 소식 없음.")

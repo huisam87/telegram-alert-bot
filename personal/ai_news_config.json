@@ -25,13 +25,6 @@
       ]
     },
     {
-      "name": "Google Antigravity",
-      "keywords": [
-        "google antigravity",
-        "antigravity"
-      ]
-    },
-    {
       "name": "ChatGPT",
       "keywords": [
         "chatgpt",
@@ -44,6 +37,13 @@
       "keywords": [
         "claude",
         "anthropic"
+      ]
+    },
+    {
+      "name": "Google Antigravity",
+      "keywords": [
+        "Google Antigravity",
+        "Antigravity"
       ]
     },
     {
