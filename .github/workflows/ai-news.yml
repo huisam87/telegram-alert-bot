@@ -21,4 +21,5 @@ jobs:
         with:
           python-version: "3.11"
       - name: Send digest
+        working-directory: personal
         run: python ai_news_send_ci.py
